@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #211F15;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.LandingPageImage {
+  position: relative;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.content span.img-txt {
+  text-transform: uppercase;
+  justify-content: center;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.PSContent {
+  background-color: #F9F7F4;
+  padding-bottom: 55rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;  
+}
+
+.PSContent h1.content-txt {
+  text-transform: uppercase;
+  color: #000;
+  padding-left: 8rem;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.aboutcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F9F7F4;
+  border-radius: 10px;
+  margin-bottom: 44rem;
+}
+
+.aboutcontent h1.about-content {
+  color: #211F15;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.aboutcontent p.paragraph {
+  margin-left: 0.7rem;
+  color: #211F15;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F9F7F4;
+  padding-bottom: 5rem;
+  border-radius: 10px;
+}
+
+.footer h1.footer-content {
+  color: #211F15;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal; 
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal; 
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 2rem;
+}
+
+.contact-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #211F15;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal; 
+}
+
+.contact-form button:hover {
+  background-color: #333;
+}
+
+.imagelist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 88vh;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98.5%;
+  background-color: rgba(33, 31, 21, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  z-index: 10;  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: right;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f0a500; 
+}
+
+.img-txt {
+  font-size: 36px;
+  color: #fff;
+}
